@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="ip" ></h1>
+    <h1 id="t" ></h1>
+ <img src="" alt="" id="i">
+ <p>price <span id="p"></span></p>
+ <h2 id="f" ></h2>
+ <h2 id="c"></h2>
+ <p id="per"></p>
+
+    <script  >
+
+        const a = new URLSearchParams(window.location.search)
+
+
+        let id = a.get('id')
+        let title = a.get('title')
+        let founder = a.get('founder')
+        let image = a.get('image')
+        let category = a.get('category')
+        let Price = a.get('price')
+        let parsunteg = a.get('percentage')
+
+
+        let xyz = document.getElementById('i')
+        xyz.setAttribute('src',image)
+        document.getElementById('t').innerHTML=title
+        document.getElementById('p').innerHTML=Price
+         document.getElementById('f').innerHTML=founder
+          document.getElementById('c').innerHTML=category
+        document.getElementById('ip').innerHTML=id
+        document.getElementById('per').innerHTML=percentage
+
+
+    </script>
+</body>
+</html>

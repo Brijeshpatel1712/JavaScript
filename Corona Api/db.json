@@ -1,0 +1,88 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "name": "India",
+            "cases": 44000000,
+            "recovered": 43000000,
+            "deaths": 530000
+        },
+        {
+            "id": 2,
+            "name": "USA",
+            "cases": 101000000,
+            "recovered": 99000000,
+            "deaths": 1200000
+        },
+        {
+            "id": 3,
+            "name": "Brazil",
+            "cases": 37000000,
+            "recovered": 36000000,
+            "deaths": 700000
+        },
+        {
+            "id": 4,
+            "name": "Russia",
+            "cases": 22000000,
+            "recovered": 21000000,
+            "deaths": 390000
+        },
+        {
+            "id": 5,
+            "name": "UK",
+            "cases": 25000000,
+            "recovered": 24000000,
+            "deaths": 230000
+        },
+        {
+            "id": 6,
+            "name": "Germany",
+            "cases": 38000000,
+            "recovered": 37000000,
+            "deaths": 170000
+        },
+        {
+            "id": 7,
+            "name": "France",
+            "cases": 39000000,
+            "recovered": 38000000,
+            "deaths": 160000
+        },
+        {
+            "id": 8,
+            "name": "Italy",
+            "cases": 26000000,
+            "recovered": 25000000,
+            "deaths": 190000
+        },
+        {
+            "id": 9,
+            "name": "Spain",
+            "cases": 15000000,
+            "recovered": 14500000,
+            "deaths": 120000
+        },
+        {
+            "id": 10,
+            "name": "Japan",
+            "cases": 33000000,
+            "recovered": 32000000,
+            "deaths": 70000
+        },
+        {
+            "id": 11,
+            "name": "Australia",
+            "cases": 12000000,
+            "recovered": 11800000,
+            "deaths": 23000
+        },
+        {
+            "id": 12,
+            "name": "Canada",
+            "cases": 5000000,
+            "recovered": 4900000,
+            "deaths": 60000
+        }
+    ]
+}

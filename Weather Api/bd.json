@@ -1,0 +1,84 @@
+{
+  "weather": [
+    {
+      "id": 1,
+      "city": "Ahmedabad",
+      "temperature": 36,
+      "unit": "Celsius",
+      "humidity": 48,
+      "windSpeed": 12,
+      "condition": "Sunny",
+      "icon": "☀️"
+    },
+    {
+      "id": 2,
+      "city": "Surat",
+      "temperature": 34,
+      "unit": "Celsius",
+      "humidity": 55,
+      "windSpeed": 10,
+      "condition": "Partly Cloudy",
+      "icon": "⛅"
+    },
+    {
+      "id": 3,
+      "city": "Vadodara",
+      "temperature": 32,
+      "unit": "Celsius",
+      "humidity": 60,
+      "windSpeed": 15,
+      "condition": "Rainy",
+      "icon": "🌧️"
+    },
+    {
+      "id": 4,
+      "city": "Rajkot",
+      "temperature": 38,
+      "unit": "Celsius",
+      "humidity": 40,
+      "windSpeed": 8,
+      "condition": "Sunny",
+      "icon": "☀️"
+    },
+    {
+      "id": 5,
+      "city": "Mumbai",
+      "temperature": 33,
+      "unit": "Celsius",
+      "humidity": 70,
+      "windSpeed": 14,
+      "condition": "Cloudy",
+      "icon": "☁️"
+    },
+    {
+      "id": 6,
+      "city": "Delhi",
+      "temperature": 40,
+      "unit": "Celsius",
+      "humidity": 30,
+      "windSpeed": 18,
+      "condition": "Hot",
+      "icon": "🔥"
+    },
+    {
+      "id": 7,
+      "city": "Chennai",
+      "temperature": 35,
+      "unit": "Celsius",
+      "humidity": 65,
+      "windSpeed": 20,
+      "condition": "Thunderstorm",
+      "icon": "⛈️"
+    },
+    {
+      "id": 8,
+      "city": "Kolkata",
+      "temperature": 31,
+      "unit": "Celsius",
+      "humidity": 75,
+      "windSpeed": 9,
+      "condition": "Rainy",
+      "icon": "🌧️"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Manager</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Product Manager</h1>
+
+    <!-- Add Product Form -->
+    <form id="product-form">
+      <input type="text" id="title" placeholder="Product Title" />
+      <input type="text" id="category" placeholder="Category" />
+      <input type="number" id="price" placeholder="Price" />
+      <input type="text" id="image" placeholder="Image URL" />
+      <button type="submit" id="submit">Add Product</button>
+    </form>
+
+    <!-- Filter & Sort -->
+    <div class="controls">
+      <select id="filter-category">
+        <option value="">All Categories</option>
+        <option value="Mobile">Mobile</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Laptop">Laptop</option>
+      </select>
+
+      <button id="sort-low-high">Sort Low to High</button>
+      <button id="sort-high-low">Sort High to Low</button>
+    </div>
+
+    <h4>update only Price</h4>
+    <input type="text" id="update-id" class="u-full-width" placeholder="ID" />
+    <input type="number" id="update-price" class="u-full-width" placeholder="Price" />
+    <button id="update-price-pitch" class="u-full-width button button-primary">
+      Update pitch Price
+    </button>
+    <h4>update all fields of Pitch</h4>
+    <input type="text" id="update-id" class="u-full-width" placeholder="ID" />
+    <input type="text" id="update-title" class="u-full-width" placeholder="Title" />
+    <input type="text" id="update-image" class="u-full-width" placeholder="Image Url" />
+    <input type="text" id="update-category" class="u-full-width" placeholder="Category" />
+
+    <input type="number" id="update-pitch-price" class="u-full-width" placeholder="Pitch Price" />
+    <!-- <input
+            type="date"
+            id="update-pitch-year"
+            class="u-full-width"
+            placeholder="Year of foundation"
+          /> -->
+    <button id="update-pitch" class="u-full-width button button-primary">
+      Update all fields
+    </button>
+    <!-- Product List -->
+    <div id="product-list">
+
+    </div>
+  </div>  
+
+  <script src="script.js"></script>
+</body>
+
+</html> 

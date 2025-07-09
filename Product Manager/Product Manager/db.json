@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": "4",
+      "title": "HP Laptop",
+      "category": "Laptop",
+      "price": 55000,
+      "image": "https://m.media-amazon.com/images/I/71uuMO6PstL.jpg"
+    },
+    {
+      "id": "63ee",
+      "title": "washing machine",
+      "category": "Electronics",
+      "price": 29910,
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1727228777/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/308169_nhjiel.png",
+      "founder": ""
+    },
+    {
+      "title": "blender",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQdernkk3RQLljWlN3fGPUDDRu0HxvcebM_sBRgyC8riDurq6ZerVBhSBV7pD0YbaRMKLlB2z0FK3JlJrvU7XnaJe8oNPoINJsuAY1PluDG30VFRTR1iDRO",
+      "category": "Electronics",
+      "price": 1800,
+      "id": "f7c2"
+    },
+    {
+      "title": "samsung Galaxy Book4 13th Gen 1315u Laptop",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR-LXSHnfkfanjx1v9OOGuAcENHtnP7Ze9x2wy594A8I7-zT5C94iewIV7lv-dTw15_0m2kBAuu1FCB3ORhRM8Qcq4xhY7b2aPDtDYfo74O",
+      "category": "Laptop",
+      "price": 40000,
+      "id": "ffd8"
+    },
+    {
+      "title": "Dell Inspiron 15 3535 Notebook",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQyEHWjVZRW292v4AlhhZKWGE11QVGzYxSb99LKyhLK7WbWfR3OYG3CWXu54DNort1ms8tIoHk2QqXfAWrZnB4dlSTCYzpV2wL3j5QMmkYODM0X2hl-ubm7",
+      "category": "Laptop",
+      "price": 32999,
+      "id": "a97d"
+    },
+    {
+      "id": "73ca",
+      "title": "i phone",
+      "category": "Mobile",
+      "price": 51300,
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRSUAInokMH9tMNXBP4Q-2PgkIoCnbmkW0SLZv3SVOKqJ_Us1dAwq1Txp3SzwHPcJDeWi8e6-Nxp6Jfx_xTLGMXRhUkT0MNpy_1no1YSzVyf_6BqtWx0AMMwmNb",
+      "founder": ""
+    },
+    {
+      "id": "6ed1",
+      "title": "realme",
+      "category": "Mobile",
+      "price": 18000,
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1708672910/Croma%20Assets/Communication/Mobiles/Images/243052_0_y27wbs.png",
+      "founder": ""
+    },
+    {
+      "title": "HP",
+      "image": "https://www.designinfo.in/wp-content/uploads/2023/10/HP-Laptop-15s-11th-Gen-Intel-Core-i5-1155G7-1.webp",
+      "category": "Laptop",
+      "price": 32999,
+      "id": "18d5"
+    },
+    {
+      "id": "6642",
+      "title": "Hair trimar men",
+      "category": "Electronics",
+      "price": 643,
+      "image": "https://images.meesho.com/images/products/245897553/unzn1_512.webp",
+      "founder": ""
+    }
+  ]
+}
