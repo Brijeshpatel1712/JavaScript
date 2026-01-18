@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Patient Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+            <h2>City Hospital</h2>
+  <a href="index.html">Home</a>
+  <a href="patients.html">Patients</a>
+   <a href="doctors.html">Doctors</a>
+  <a href="appointment.html">Appointments</a>
+  <a href="dashboard.html">Dashboard</a>
+</nav>
+
+    <h2>Patient Registration</h2>
+
+    <input type="text" id="name" placeholder="Patient Name">
+    <input type="number" id="age" placeholder="Age">
+    <button onclick="addPatient()">Add</button>
+
+    <h3>Patient List</h3>
+    <table class="data-table">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Action</th>
+        </tr>
+        <tbody id="patientTable"></tbody>
+    </table>
+
+    <script src="js/patients.js"></script>
+
+</body>
+
+</html>

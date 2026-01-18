@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+            <h2>City Hospital</h2>
+  <a href="index.html">Home</a>
+  <a href="patients.html">Patients</a>
+   <a href="doctors.html">Doctors</a>
+  <a href="appointment.html">Appointments</a>
+  <a href="dashboard.html">Dashboard</a>
+</nav>
+
+    <h2>Book Appointment</h2>
+
+    <input type="text" id="patient" placeholder="Patient Name">
+    <input type="text" id="doctor" placeholder="Doctor Name">
+    <input type="date" id="date">
+    <button onclick="saveAppointment()">Save</button>
+
+    <h3>Appointments</h3>
+    <table class="data-table">
+        <tr>
+            <th>Patient</th>
+            <th>Doctor</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+        <tbody id="appointmentTable"></tbody>
+    </table>
+
+    <script src="js/appointment.js"></script>
+
+</body>
+
+</html>
